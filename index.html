@@ -20,7 +20,9 @@
 
     <nav class="navbar">
         <div class="nav-name">
-            <h2><span class="first-name">Matt</span><span class="last-name">Mombo.dev</span></h2>
+            <a href="#">
+                <h2><span class="first-name textw">Matt</span><span class="last-name textw">Mombo.dev</span></h2>
+            </a>
         </div>
         <div class="nav-inner">
             <div class="nav-item">
@@ -48,30 +50,35 @@
     <main>
 
         <div class="name-plate">
-            <h2>Software Developer</h2>
-            <h1><span class="first-name">Matthew </span> <span class="last-name">Mombourquette</span></h1>
-            <br>
-            <h4>Matt13@Mombourquette.com</h4>
+            <h2 class="textw">Software Developer</h2>
+            <h1><span class="first-name textw">Matthew </span> <span class="last-name textw">Mombourquette</span></h1>
+
+            <h4 class="textw">Matt13@Mombourquette.com</h4>
         </div>
 
         <section class="projects">
 
 
-            <div class="header" id="projects">
+            <div class="header textw" id="projects">
                 <h1>Projects</h1>
             </div>
             <div class="project-card" id="hopsy">
                 <div class="project-card-main">
 
-                    <span class="project-title">Hopsy- Full Stack Craft Brewery Review Site</span>
+                    <span class="project-title center-text">Hopsy: Full-Stack Craft Brewery Review Site</span>
                     <img src="images/HopsyAll.png" class="">
-                    <span class="project-desc">Front-end created using Bootstrap 5 and EJS.
-
-                        Back-end Node.js RESTful API written using Express.js, MongoDB integrated using Mongoose ORM.
-
-                        User Authentication implemented using Passport.
-
-                        Map functionality implemented using MapBox API.</span>
+                    <span class="project-desc">
+                        <ul>
+                            <li>Engineered RESTful API back-end using Node.js and Express.js</li>
+                            <li>Built responsive front-end using Bootstrap and JavaScript to ensure mobile compatibility
+                            </li>
+                            <li>Implemented Login/Register functionality using Passport for data security</li>
+                            <li>Integrated MongoDB using Mongoose with custom written hooks to enforce data relations
+                                and security</li>
+                            <li>Deployed to remote AWS EC2 instance linked to a remote MongoDB Atlas using Nginx server
+                                as a reverse proxy</li>
+                        </ul>
+                    </span>
 
                     <span class="tech-used-header">Technologies Used:</span>
                     <span class="project-desc">Javascript, Bootstrap, Node.js, Express.js, Mongoose, MongoDB Atlas,
@@ -91,20 +98,35 @@
                 <div class="project-card-main">
 
                     <span class="project-title">Financial Services Dashboard App</span>
-                    <span class="project-desc">Designed and developed Java desktop application implementing
-                        Service-Oriented-Architecture usingModel-View-Controller and Publish-Subscribe patterns to
-                        ensure system was highly modifiable•Implemented multi-threaded services running independently on
-                        Linux AWS EC2 Instances to maximize numbersof possible concurrent users•Developed as part of a
-                        team of five within Software Architecture course using Agile methodologies.</span>
+                    <span class="project-desc">
+
+                        <ul>
+                            <li>Developed as part of a
+                                team of five within Software Architecture course given
+                                requirements that the system implements Service-Oriented-Architecture and is hosted in
+                                the cloud</li>
+                            <li>Designed and developed Java desktop application implementing
+                                Service-Oriented-Architecture using Model-View-Controller and Publish-Subscribe patterns
+                                to
+                                ensure system was highly modifiable</li>
+
+                            <li>Implemented multi-threaded services running independently on
+                                Linux AWS EC2 Instances to maximize numbersof possible concurrent users</li>
+
+                        </ul>
+
+
+
+                    </span>
 
                     <span class="tech-used-header">Technologies Used:</span>
                     <span class="project-desc">Java, Maven, AWS</span>
                     <div class="proj-buttons">
-                        <div class="button">
+                        <!-- <div class="button">
                             <a href="https://hopsy.bar" class="button1">DEMO</a>
-                        </div>
+                        </div> -->
                         <div class="button">
-                            <a href="https://github.com/mmombo/Hopsy" class="button1">CODE</a>
+                            <a href="https://github.com/mmombo/CopyOf4471BProject" class="button1">CODE</a>
                         </div>
                     </div>
                 </div>
@@ -113,21 +135,30 @@
             <div class="project-card">
                 <div class="project-card-main">
 
-                    <span class="project-title">Mock Store/Vending Machine Application</span>
+                    <span class="project-title center-text">Mock Store/Vending Machine Application</span>
                     <!-- <img src="images/HopsyAll.png" class=""> -->
-                    <span class="project-desc">This project was done for my Object Oriented Design course as part of a
-                        team of 5. The one project requirement was that our system must run in a Raspberry Pi Linux
-                        Environment.
-                        In our system we have implemented Registration and Login using Bcrypt hashing algorithm, Admin
-                        authorization, inventory management, shopping carts and checkout and simple intuitive
-                        text-interfaces.</span>
+                    <span class="project-desc">
+                        <ul>
+                            <li>This project was done for my Object Oriented Design course as part of a
+                                team of 5. The one project requirement was that our system must run in a Raspberry Pi
+                                Linux
+                                Environment.</li>
+                            <li>In our system we have implemented Registration and Login using Bcrypt hashing algorithm,
+                                Admin
+                                authorization, inventory management, shopping carts and checkout and simple intuitive
+                                text-interfaces.</li>
+
+
+
+                        </ul>
+                    </span>
 
                     <span class="tech-used-header">Technologies Used:</span>
                     <span class="project-desc">C++</span>
                     <div class="proj-buttons">
-                        <div class="button">
+                        <!-- <div class="button">
                             <a href="https://hopsy.bar" class="button1">DEMO</a>
-                        </div>
+                        </div> -->
                         <div class="button">
                             <a href="https://github.com/mmombo/3307Project" class="button1">CODE</a>
                         </div>
@@ -140,11 +171,21 @@
 
                     <span class="project-title">Trivia Game</span>
                     <!-- <img src="images/HopsyAll.png" class=""> -->
-                    <span class="project-desc">Created for my girlfriend and I to practice trivia together. Aggregated
-                        data from a local PostgreSQL database and OpenTriviaDB API
-                        into questions that are pulled by aJava desktop application•Automated a randomization event to
-                        alternate answer order for multiple choice questions and added scoretracking functionality with
-                        persistency across sessions to allow for leaderboards</span>
+                    <span class="project-desc">
+                        <ul>
+                            <li>Created for my girlfriend and I to practice trivia together</li>
+                            <li>ggregated
+                                data from a local PostgreSQL database and OpenTriviaDB API
+                                into questions that are pulled by aJava desktop application</li>
+                            <li>Automated a randomization event to
+                                alternate answer order for multiple choice questions and added scoretracking
+                                functionality with
+                                persistency across sessions to allow for leaderboards</li>
+
+
+
+                        </ul>
+                    </span>
 
                     <span class="tech-used-header">Technologies Used:</span>
                     <span class="project-desc">Java, Maven, PostgreSQL</span>
