@@ -268,6 +268,9 @@ a.button1:hover {
   font-size: 1.4rem;
 }
 
+.skills-text {
+  margin-top: 50px;
+}
 @media screen and (max-width: 1490px) {
   .navbar {
     background: linear-gradient(147deg, #003049 0%, #921616 74%) fixed;
@@ -354,6 +357,9 @@ a.button1:hover {
   }
   li {
     font-size: 1.2rem;
+  }
+  .about-me {
+    margin: 50px 0;
   }
 }
 
