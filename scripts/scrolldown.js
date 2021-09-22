@@ -9,3 +9,9 @@ projectLink.onclick = function () {
 // contactLink.onclick = function () {
 //   contact.scrollIntoView({ behavior: "smooth", block: "start" });
 // };
+
+// const aboutLink = document.querySelector("#about-link");
+// const about = document.querySelector("#about");
+// aboutLink.onclick = function () {
+//   about.scrollIntoView({ behavior: "smooth", block: "start" });
+// };
