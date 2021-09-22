@@ -215,7 +215,7 @@ a.button1 {
   font-size: 20px;
   color: #921616;
   text-align: center;
-  transition: all 0.4s;
+  transition: all 0.3s;
   background-color: none;
   display: inline-block;
 }
