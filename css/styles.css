@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   /* background: #003049; */
   background: linear-gradient(147deg, #003049 0%, #921616 74%) fixed;
+  /* background: linear-gradient(147deg, #003049, #00585e) fixed; */
   min-height: 100%;
   font-family: "Titillium Web";
   font-size: 100%;
@@ -104,7 +105,7 @@ li {
 }
 
 .last-name {
-  font-weight: 300;
+  font-weight: 200;
   font-family: "Titillium Web";
 }
 main {
@@ -219,7 +220,12 @@ a.button1 {
   background-color: none;
   display: inline-block;
 }
-
+.name-plate h2 {
+  margin-top: 10px;
+}
+.name-plate h4 {
+  margin-top: 10px;
+}
 a.button1:hover {
   color: #000000;
   background-color: #921616;
