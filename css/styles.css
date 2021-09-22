@@ -26,6 +26,10 @@ h3 {
   color: white;
   font-size: 2rem;
 }
+h4 {
+  color: #fdf0d5;
+  font-size: 1.5rem;
+}
 p {
   color: white;
   font-size: 1.2rem;
@@ -91,6 +95,7 @@ main {
   justify-content: center;
   width: 100%;
   flex-direction: column;
+  justify-content: center;
 }
 .name-plate {
   display: flex;
@@ -119,12 +124,16 @@ main {
   align-items: center;
   justify-content: center;
   width: 50%;
-  background-color: #222222;
+  /* background: #410000; */
+  background-color: #00141f;
   margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+#hopsy {
+  border-radius: 50px;
 }
 .project-card-main {
   display: flex;
@@ -133,6 +142,8 @@ main {
   align-items: center;
   max-width: 90%;
   margin: 30px 0;
+
+  border-radius: 10px;
 }
 .project-card-main img {
   width: 60%;
@@ -141,6 +152,7 @@ main {
   object-position: center;
   margin: 0 0 20px 0;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 .project-title {
   font-size: 2rem;
@@ -172,23 +184,24 @@ main {
 }
 a.button1 {
   padding: 10px 25px;
-  border: 0.1em solid #ffffff;
+  border: 0.15em solid #921616;
   margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
+  /* border-radius: 0.12em; */
+  border-radius: 0.5em;
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #ffffff;
+  color: #921616;
   text-align: center;
-  transition: all 0.2s;
+  transition: all 0.4s;
   background-color: none;
 }
 
 a.button1:hover {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #921616;
 }
 
 .contact {
