@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   /* background: #003049; */
   background: -o-linear-gradient(303deg, #003049 0%, #921616 74%) fixed;
-  background: linear-gradient(147deg, #003049 0%, #921616 74%) fixed;
+  background: linear-gradient(147deg, #003049 0%, #921616 90%) fixed;
   /* background: linear-gradient(147deg, #003049, #00585e) fixed; */
   min-height: 100%;
   font-family: "Titillium Web";
