@@ -370,12 +370,12 @@ a.button1:hover {
 }
 
 .cta-button {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 5px;
-  background-color: none;
-  color: white;
-  font-size: 1.2rem;
-  padding: 30px;
+  background-color: white;
+  color: #003049;
+  font-size: 1.5rem;
+  padding: 20px 30px;
   margin-top: 50px;
   transition: 3ms;
   transition-duration: 0.4s;
@@ -385,8 +385,8 @@ a.button1:hover {
 }
 .cta-button:hover {
   transform: translate(0, -3px);
-  color: #003049;
-  background: white;
+  color: white;
+  background: #003049;
 }
 @media all and (max-width: 30em) {
    a.button1 {
