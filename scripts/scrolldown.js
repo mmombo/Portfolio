@@ -15,3 +15,8 @@ projectLink.onclick = function () {
 // aboutLink.onclick = function () {
 //   about.scrollIntoView({ behavior: "smooth", block: "start" });
 // };
+const projectLink2 = document.querySelector("#project-link2");
+const projects2 = document.querySelector("#projects");
+projectLink2.onclick = function () {
+  projects2.scrollIntoView({ behavior: "smooth", block: "start" });
+};
